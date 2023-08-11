@@ -26,8 +26,8 @@ export default function App () {
               <Nav className='me-auto'>
                 <Nav.Link as={Link} to='/contacto'>Contacto</Nav.Link>
                 <Nav.Link as={Link} to='/qsm'>Quienes Somos</Nav.Link>
-                <Nav.Link href='https://betos-production.up.railway.app/login'>LogIn</Nav.Link>
-                <Nav.Link href='https://betos-production.up.railway.app/register'>Registro</Nav.Link>
+                <Nav.Link href='https://betooss.000webhostapp.com/login'>LogIn</Nav.Link>
+                <Nav.Link href='https://betooss.000webhostapp.com/register'>Registro</Nav.Link>
               </Nav>
               <Navbar.Brand as={Link} to='/cart'>
                 🛒

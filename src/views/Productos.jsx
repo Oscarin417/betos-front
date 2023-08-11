@@ -13,7 +13,7 @@ const Productos = ()=> {
                 {productos.map((pro)=> (
                     <Col key={pro.id}>
                         <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={'https://betos-production.up.railway.app/storage/'+pro.imagen} height={200} alt={pro.nombre} />
+                            <Card.Img variant="top" src={'https://betooss.000webhostapp.com/storage/'+pro.imagen} height={200} alt={pro.nombre} />
                             <Card.Body>
                                 <Card.Title>{pro.nombre}</Card.Title>
                                 <Card.Text>${pro.precio}</Card.Text>

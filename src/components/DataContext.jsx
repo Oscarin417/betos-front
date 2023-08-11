@@ -8,7 +8,7 @@ const DataProvider = ({children})=>{
     const[cart, setCart] = useState([])
 
     useEffect(()=>{
-        axios.get('https://betos-production.up.railway.app/api/productos')
+        axios.get('https://betooss.000webhostapp.com/api/productos')
             .then((response)=> setProductos(response.data))
             .catch((error) => console.error(error));
     },[])
