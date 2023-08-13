@@ -1,0 +1,12 @@
+/* CartElements.css */
+.cart-container {
+    margin: 20px; /* Ajusta el margen para un espaciado adecuado */
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Añade más estilos según sea necesario para un diseño responsivo */
